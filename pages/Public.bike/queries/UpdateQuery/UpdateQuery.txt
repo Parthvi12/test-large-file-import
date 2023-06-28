@@ -1,0 +1,3 @@
+UPDATE public."bike" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}'
+WHERE "rating" = {{data_table.selectedRow.rating}};

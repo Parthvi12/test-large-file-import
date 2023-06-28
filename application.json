@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": true
+    },
+    {
+      "id": "Sample_schema.SampleTable",
+      "isDefault": false
+    },
+    {
+      "id": "Detail",
+      "isDefault": false
+    },
+    {
+      "id": "June 1 2023 - Flaky Analysis",
+      "isDefault": false
+    },
+    {
+      "id": "Configs",
+      "isDefault": false
+    },
+    {
+      "id": "Public.bike",
+      "isDefault": false
+    },
+    {
+      "id": "Page1 Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Public.Projects",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#F3F1C7",
+  "icon": "laptop",
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

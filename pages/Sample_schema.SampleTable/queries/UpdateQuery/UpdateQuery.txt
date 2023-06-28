@@ -1,0 +1,4 @@
+UPDATE sample_schema."SampleTable" SET
+		"column1" = '{{update_form.fieldState.column1.isVisible ? update_form.formData.column1 : update_form.sourceData.column1}}',
+		"column2" = '{{update_form.fieldState.column2.isVisible ? update_form.formData.column2 : update_form.sourceData.column2}}'
+WHERE "id" = {{data_table.selectedRow.id}};

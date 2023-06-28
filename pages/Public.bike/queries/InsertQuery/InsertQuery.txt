@@ -1,0 +1,6 @@
+INSERT INTO public."bike" (
+	"rating",
+	"name")
+VALUES (
+	'{{insert_form.formData.rating}}',
+	'{{insert_form.formData.name}}');

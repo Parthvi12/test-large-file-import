@@ -1,0 +1,8 @@
+INSERT INTO sample_schema."SampleTable" (
+	"id",
+	"column1",
+	"column2")
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.column1}}',
+	'{{insert_form.formData.column2}}');

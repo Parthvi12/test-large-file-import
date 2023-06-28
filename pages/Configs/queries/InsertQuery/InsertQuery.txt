@@ -1,0 +1,12 @@
+INSERT INTO configs (
+	configName,
+	configJson,
+	configVersion,
+	updatedAt,
+	updatedBy)
+VALUES (
+	'{{insert_form.formData.configName}}',
+	'{{insert_form.formData.configJson}}',
+	'{{insert_form.formData.configVersion}}',
+	'{{insert_form.formData.updatedAt}}',
+	'{{insert_form.formData.updatedBy}}');
